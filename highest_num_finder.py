@@ -15,13 +15,13 @@ def get_highest_num_from_user_input():
     
     if number_2 > highest:
         highest = number_2
-    elif number_3 > highest:
+    if number_3 > highest:
         highest = number_3
-    elif number_4 > highest:
+    if number_4 > highest:
         highest = number_4
-    elif number_5 > highest:
+    if number_5 > highest:
         highest = number_5
-    
+
 
 #Finalize the code
     print(f"The highest number is: {highest}")
