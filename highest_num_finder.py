@@ -8,7 +8,16 @@ def get_highest_num_from_user_input():
     number_4 = int(float(input("Kindly enter your fourth number: ")))
     number_5 = int(float(input("Kindly enter your fifth number: ")))
 
+#Assuming that number_1 is the highest
+    highest = number_1
+
 #Find and print the highest number using only if statement
+    
+    if number_2 > highest:
+        highest == number_2
+    
+
+
 
 #Finalize the code
 
