@@ -22,9 +22,8 @@ def get_highest_num_from_user_input():
     if number_5 > highest:
         highest = number_5
 
-
 #Finalize the code
-    print(f"The highest number is: {highest}")
+    print(f"The highest number is: ✨ {highest} ✨ ")
 
 #Call the function
 get_highest_num_from_user_input()
