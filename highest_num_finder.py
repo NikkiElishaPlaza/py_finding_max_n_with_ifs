@@ -13,17 +13,18 @@ def get_highest_num_from_user_input():
 
 #Find and print the highest number using only if statement
     
-    if number_2 >= highest:
+    if number_2 > highest:
         highest == number_2
-    if number_3 >= highest:
+    elif number_3 > highest:
         highest == number_3
-    if number_4 >= highest:
+    elif number_4 > highest:
         highest == number_4
-    if number_5 >= highest:
+    elif number_5 > highest:
         highest == number_5
+    
 
 #Finalize the code
-
+    print(f"The highest number is: {highest}")
 
 #Call the function
 get_highest_num_from_user_input()
